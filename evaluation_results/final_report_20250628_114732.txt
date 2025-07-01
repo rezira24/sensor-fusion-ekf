@@ -1,0 +1,34 @@
+============================================================
+FINAL MULTI-SENSOR FUSION EVALUATION REPORT
+============================================================
+
+Date: 2025-06-28 11:47:33
+Total Runtime: 171.9s
+Total Frames: 2740
+Average FPS: 22.3
+
+[Positioning Accuracy]
+- LiDAR MAE: 1.268 m
+- LiDAR RMSE: 1.315 m
+- LiDAR Relative Error: 13.4%
+- EKF MAE: 0.938 m
+- EKF RMSE: 0.995 m
+- EKF Relative Error: 8.7%
+
+[Camera Segmentation Accuracy]
+- Average Semantic IoU: 0.897
+
+[System Performance]
+- Average CPU Usage: 410.7%
+- Latency Breakdown (ms):
+  - Frame Time: 0.0
+  - Lidar Preprocessing: 1.0
+  - Clustering: 14.4
+  - Segmentation: 2.2
+  - Fusion: 2.3
+  - Visualization: 26.2
+  - Total Average Latency: 52.5
+
+  [WARNING] Component sum (46.1 ms) differs from total (52.5 ms) by 6.4 ms
+
+============================================================
