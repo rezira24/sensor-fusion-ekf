@@ -35,7 +35,7 @@ from carla_perception_msgs.msg import DetectedObject, DetectedObjectArray
 # Import existing modules
 from config1 import *
 from utils import get_intrinsic_matrix, process_image, MAPPING_COLORS
-from object6_detector import (
+from object_detector import (
     euclidean_clustering, project_3d_bounding_boxes, 
     preprocess_lidar, print_preprocessing_stats, 
     draw_lidar_projection, get_object_bboxes_from_segmentation, 
@@ -47,7 +47,7 @@ from lane_detection import estimate_lane_lines, merge_lane_lines
 from sensors import setup_sensors, get_sensor_data, cleanup_sensors, sensor_callback
 
 # Import 4D state EKF fusion module
-from sensor11_fusion import (
+from sensor_fusion import (
     MultiSensorTracker,
     MultiSensorBEVVisualizer, 
     convert_to_multi_sensor_format,
@@ -62,7 +62,7 @@ from eval_system import (
 )
 
 # Import visualization classes from main12
-from main12enhancedcopy import (
+from main import (
     EnhancedBEVVisualizerWithFusion,
     preprocess_camera_segmentation,
     enhance_multi_sensor_tracker_with_tiered_lifetime,

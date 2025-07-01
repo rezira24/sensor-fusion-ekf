@@ -7,7 +7,7 @@ import carla
 from utils import VIRIDIS, VID_RANGE
 from utils import COLOR_CAR, COLOR_PED
 
-from config1 import (
+from config import (
     VOXEL_SIZE,  # Ini tidak ada di object6_detector tapi di preprocess_lidar
     GROUND_THRESHOLD,
     CLUSTERING_TOLERANCE,

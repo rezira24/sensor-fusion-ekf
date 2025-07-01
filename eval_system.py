@@ -15,7 +15,7 @@ import psutil
 import matplotlib.pyplot as plt
 import matplotlib.style as mplstyle
 
-from config1 import (
+from config import (
     EVALUATION_DISTANCE_THRESHOLD,
     EVALUATION_HISTORY_SIZE
 )

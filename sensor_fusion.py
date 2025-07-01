@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from typing import List, Tuple, Dict, Optional
 from collections import deque
 
-from config1 import (
+from config import (
     # EKF core parameters
     EKF_PROCESS_NOISE_POSITION, EKF_PROCESS_NOISE_VELOCITY,
     EKF_LIDAR_NOISE, EKF_CAMERA_NOISE,
